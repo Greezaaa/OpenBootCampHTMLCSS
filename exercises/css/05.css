@@ -1,0 +1,26 @@
+.wrapper {
+    width: 90%;
+    max-width: 940px;
+    margin: 2rem auto 0;
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item {
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    opacity: .8;
+    transition: opacity .3s ease;
+    border-radius: 3px;
+    
+}
+
+.item:hover {
+    border-radius: 3px;
+    opacity: 1;
+    transition: opacity .3s ease;
+}
