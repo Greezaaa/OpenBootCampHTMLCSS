@@ -80,7 +80,6 @@ h3 {
   background-color: #f2f2f2;
   border: none;
   height: 40px;
-
   border-radius: 8px;
   padding: 10px;
 }
@@ -107,7 +106,6 @@ hr {
   overflow: visible;
   border: none;
   border-top: 1px solid #e0e0e0;
-
   width: 100%;
   text-align: center;
 }
@@ -178,7 +176,6 @@ input[type="checkbox"] {
   width: 18px;
   height: 18px;
   box-shadow: none;
-  background-color: #4f3cc9;
   padding: 0;
   margin: 0 10px 0 0;
   cursor: pointer;
@@ -195,7 +192,7 @@ input[type="checkbox"] {
   width: 100%;
   padding: 10px;
   text-align: center;
-  color: #fff;
+  color: var(--white);
   border: none;
   border-radius: 8px;
   cursor: pointer;
